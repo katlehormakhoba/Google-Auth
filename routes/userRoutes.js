@@ -8,7 +8,7 @@ const authController = require('../controllers/authController');
 router.get('/google/signin', authController.googleSignIn)
 
 
-router.get('/auth/google', )
+router.get('/auth/google', authController.getGoogleUser)
 
 
 module.exports = router
